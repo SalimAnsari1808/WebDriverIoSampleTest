@@ -1,0 +1,26 @@
+{
+  "name": "WebDriverIoSampleTest",
+  "version": "1.0.0",
+  "description": "This project is developed for tutorial purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chromedriver": "^90.0.0",
+    "fast-csv": "^4.3.6",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0"
+  }
+}
